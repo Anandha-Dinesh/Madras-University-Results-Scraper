@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start":"nodemon app.js",
-    "dev":"node app.js",
+    "start": "nodes app.js",
+    "dev": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,6 +17,7 @@
     "express": "^4.18.2",
     "express-fileupload": "^1.4.0",
     "fs-extra": "^11.1.0",
+    "nodemon": "^2.0.22",
     "puppeteer": "^19.7.2",
     "xlsx": "^0.18.5"
   }
