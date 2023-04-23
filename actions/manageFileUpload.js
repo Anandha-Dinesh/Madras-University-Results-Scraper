@@ -5,7 +5,7 @@ const scrape = require("./scrape");
 const writedata = require("./writedata");
 
 const manageFiles = async(req,res)=>{
-    if (!req.files || !req.body.category) {
+    if (!req.files ) {
         res.status(404).json({Message:"Pls give all inputs"})
     }else{
         let info ={
