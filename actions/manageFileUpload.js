@@ -12,7 +12,7 @@ const manageFiles = async(req,res)=>{
             file : req.files.foo,
         };
         
-        await info.file.mv(__dirname+"../uploads/FILE.xlsx",(err)=>{
+        await info.file.mv(__dirname+"/../uploads/FILE.xlsx",(err)=>{
             if(err){
                 console.log(err);
             }
